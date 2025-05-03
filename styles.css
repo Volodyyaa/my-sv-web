@@ -44,7 +44,7 @@ body.dark-mode {
 }
 
 #theme-toggle:hover {
-  background-color: var(#5c27ae);
+  background-color: var(--primary-color);
 }
 
 h1 {
@@ -85,7 +85,7 @@ hr {
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
-  background-color: var(--primary-color);
+  background-color: var(#6b27ae);
   color: white;
   font-size: 16px;
   border: none;
