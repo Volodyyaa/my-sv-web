@@ -85,7 +85,7 @@ hr {
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
-  background-color: #8e44ad;
+  background-color: var(--primary-color);
   color: white;
   font-size: 16px;
   border: none;
