@@ -44,7 +44,7 @@ body.dark-mode {
 }
 
 #theme-toggle:hover {
-  background-color: var(--secondary-color);
+  background-color: var(#5c27ae);
 }
 
 h1 {
