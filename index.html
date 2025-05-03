@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Наконечний Володимир Володимирович - Резюме</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="theme-container">
+    <button id="theme-toggle">Перемкнути тему</button>
+  </div>
+
+  <h1>Наконечний Володимир Володимирович</h1>
+
+  <button id="open-modal" class="feedback-btn">Зворотній зв'язок</button>
+
+  <img src="images/image1.jpg" alt="Фото Володимира" width="150" height="150">
+
+  <h2>Контакти</h2>
+  <p>
+    Телефон: +380680727844<br>
+    Email: volodya@gmail.com
+  </p>
+
+  <h2>Мета</h2>
+  <p>Шукаю першу можливість розпочати карʼєру в сфері тестування програмного забезпечення. Маю базові знання в автоматизованому тестуванні, прагну вдосконалювати навички та розвиватися в ІТ-сфері.</p>
+
+  <h2>Освіта</h2>
+  <p>Вища освіта</p>
+
+  <h2>Навички</h2>
+  <ul>
+    <li>Тестування програмного забезпечення (QA)</li>
+    <li>Автоматизоване тестування на Node.js</li>
+    <li>Робота з Selenium WebDriver</li>
+    <li>Основи Git та командного рядка</li>
+    <li>Розуміння життєвого циклу розробки ПЗ (SDLC)</li>
+    <li>Базове знання JavaScript</li>
+  </ul>
+
+  <h2>Мови</h2>
+  <ul>
+    <li>Українська - рідна</li>
+    <li>Англійська - рівень B1 (Intermediate)</li>
+  </ul>
+
+  <h2>Досвід роботи</h2>
+  <p>Поки немає офіційного досвіду роботи. Працюю над власними навчальними проєктами для набуття практичних навичок у сфері QA.</p>
+
+  <h2>Додаткова інформація</h2>
+  <p>Самостійно вивчаю тестування через онлайн-курси та практичні завдання. Вмотивований, відповідальний, швидко навчаюсь.</p>
+
+  <h2>Відгуки роботодавців</h2>
+  <div id="comments"></div>
+
+  <footer id="footer-info"></footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Зворотній зв'язок</h2>
+      <form action="https://formspree.io/f/xkgrgzja" method="POST">
+        <label for="name">Ім’я:</label>
+        <input type="text" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+
+        <label for="phone">Номер телефону:</label>
+        <input type="tel" name="phone" required>
+
+        <label for="message">Повідомлення:</label>
+        <textarea name="message" required></textarea>
+
+        <button type="submit">Відправити</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
